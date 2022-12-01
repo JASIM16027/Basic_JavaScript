@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let fruits = ["Apple", "Orange", "Plum", {name:'Jasim'},function(){ alert('Hello'); } ];
+        // alert(fruits[0]);
+        // alert(fruits[1]);
+        // alert(fruits[2]);
+        // alert(fruits.length);
+        // alert(fruits[4]());
+        // fruits[4]();
+
+        // alert(fruits[fruits.length-1]());
+        // alert(fruits.at(-1)());
+
+        // alert(fruits.push("Mango"));
+        // alert(fruits.pop());
+        // alert(fruits);
+
+        for(let fruit of fruits){
+            alert(fruit);
+        }
+        fruits.length=2;
+        alert(fruits);
+        var arr = [1,2,3,4];
+        arr.length =2;
+        alert(arr);
+
+        
+    </script>
+    
+</body>
+</html>
